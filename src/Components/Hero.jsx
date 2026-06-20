@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
+import Image from 'next/image';
 
 export default function Hero() {
   const fadeIn = {
@@ -163,7 +164,7 @@ export default function Hero() {
                 className="w-full h-full rounded-2xl md:rounded-[28px] overflow-hidden"
               >
                 <SwiperSlide>
-                  <img
+                  <Image
                     src="https://raw.githubusercontent.com/avinashdm/gs-images/main/prescripto/doc9.png"
                     alt="Doctor"
                     className="w-full h-full object-cover object-center"
@@ -171,14 +172,14 @@ export default function Hero() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <img
+                  <Image
                     src="https://i.ibb.co.com/gMKSvcXx/4c86121e62bdd42aecf98ae673561052.jpg"
                     alt="Doctor"
                     className="w-full h-full object-cover object-center"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img
+                  <Image
                     src="https://raw.githubusercontent.com/avinashdm/gs-images/main/prescripto/doc1.png"
                     alt="Doctor"
                     className="w-full h-full object-cover object-center"
@@ -186,7 +187,7 @@ export default function Hero() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <img
+                  <Image
                     src="https://raw.githubusercontent.com/avinashdm/gs-images/main/prescripto/doc2.png"
                     alt="Doctor"
                     className="w-full h-full object-cover object-center"

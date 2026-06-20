@@ -1,6 +1,7 @@
 import AppointmentCard from '@/components/AppointmentCard';
 import { Button } from '@heroui/react';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -30,7 +31,7 @@ const TopRatedDoctors = async () => {
         <div className="mb-10 gap-4">
           <div className="animate-in slide-in-from-bottom-4 duration-700">
             <div className="flex justify-center items-center mb-2">
-              <img src="/badge.png" width={40} height={30} alt="" />
+              <Image src="/badge.png" width={40} height={30} alt="" />
             </div>
             <div className="flex justify-center mb-2">
               <h2 className="text-2xl md:text-3xl font-black text-slate-800 flex items-center text-center gap-2">
